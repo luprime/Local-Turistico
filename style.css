@@ -123,3 +123,20 @@ h3.numbered::before {
 ul li::marker {
     color: #1b1b1b;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.text {
+    font-size: 16px;
+}
